@@ -1,0 +1,24 @@
+{
+  "name": "elf-tools",
+  "version": "1.0.0",
+  "description": "A package for creating and reading ELF files",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/leithouse/elf-tools.git"
+  },
+  "author": "leitning",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leithouse/elf-tools/issues"
+  },
+  "homepage": "https://github.com/leithouse/elf-tools#readme",
+  "devDependencies": {
+    "chai": "^4.3.3",
+    "chai-bytes": "^0.1.2",
+    "mocha": "^8.3.1"
+  }
+}
