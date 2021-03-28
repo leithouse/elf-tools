@@ -42,7 +42,7 @@ describe('Elf', function() {
         }
         elf.recompute();
       });
-      it('doesn\'t change any addresses', function() {
+      it.skip('doesn\'t change any addresses', function() {
         expect(elf.toString()).equal(pre.str);
       });
       it(' file that runs the same way', async function() {
