@@ -1,0 +1,13 @@
+{
+  "DT": {
+    "VX_WRS_TLS_DATA_START": 1610612752,
+    "VX_WRS_TLS_DATA_SIZE": 1610612753,
+    "VX_WRS_TLS_DATA_ALIGN": 1610612757,
+    "VX_WRS_TLS_VARS_START": 1610612754,
+    "VX_WRS_TLS_VARS_SIZE": 1610612755
+  },
+  "SHT": {},
+  "PT": {},
+  "NT": {},
+  "structs": {}
+}

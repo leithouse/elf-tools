@@ -1,0 +1,15 @@
+{
+  "DT": {
+    "AARCH64_BTI_PLT": 1879048193,
+    "AARCH64_PAC_PLT": 1879048195,
+    "AARCH64_VARIANT_PCS": 1879048197
+  },
+  "SHT": {
+    "AARCH64_ATTRIBUTES": 1879048195
+  },
+  "PT": {
+    "AARCH64_ARCHEXT": 1879048192
+  },
+  "NT": {},
+  "structs": {}
+}

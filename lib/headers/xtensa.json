@@ -1,0 +1,12 @@
+{
+  "DT": {
+    "XTENSA_GOT_LOC_OFF": 1879048192,
+    "XTENSA_GOT_LOC_SZ": 1879048193
+  },
+  "SHT": {},
+  "PT": {},
+  "NT": {},
+  "structs": {
+    "property_table_entry": []
+  }
+}

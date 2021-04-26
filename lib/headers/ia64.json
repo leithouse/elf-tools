@@ -1,0 +1,199 @@
+{
+  "DT": {
+    "IA_64_PLT_RESERVE": 1879048192,
+    "IA_64_VMS_SUBTYPE": 1610612749,
+    "IA_64_VMS_IMGIOCNT": 1610612751,
+    "IA_64_VMS_LNKFLAGS": 1610612757,
+    "IA_64_VMS_VIR_MEM_BLK_SIZ": 1610612759,
+    "IA_64_VMS_IDENT": 1610612761,
+    "IA_64_VMS_NEEDED_IDENT": 1610612765,
+    "IA_64_VMS_IMG_RELA_CNT": 1610612767,
+    "IA_64_VMS_SEG_RELA_CNT": 1610612769,
+    "IA_64_VMS_FIXUP_RELA_CNT": 1610612771,
+    "IA_64_VMS_FIXUP_NEEDED": 1610612773,
+    "IA_64_VMS_SYMVEC_CNT": 1610612775,
+    "IA_64_VMS_XLATED": 1610612779,
+    "IA_64_VMS_STACKSIZE": 1610612781,
+    "IA_64_VMS_UNWINDSZ": 1610612783,
+    "IA_64_VMS_UNWIND_CODSEG": 1610612785,
+    "IA_64_VMS_UNWIND_INFOSEG": 1610612787,
+    "IA_64_VMS_LINKTIME": 1610612789,
+    "IA_64_VMS_SEG_NO": 1610612791,
+    "IA_64_VMS_SYMVEC_OFFSET": 1610612793,
+    "IA_64_VMS_SYMVEC_SEG": 1610612795,
+    "IA_64_VMS_UNWIND_OFFSET": 1610612797,
+    "IA_64_VMS_UNWIND_SEG": 1610612799,
+    "IA_64_VMS_STRTAB_OFFSET": 1610612801,
+    "IA_64_VMS_SYSVER_OFFSET": 1610612803,
+    "IA_64_VMS_IMG_RELA_OFF": 1610612805,
+    "IA_64_VMS_SEG_RELA_OFF": 1610612807,
+    "IA_64_VMS_FIXUP_RELA_OFF": 1610612809,
+    "IA_64_VMS_PLTGOT_OFFSET": 1610612811,
+    "IA_64_VMS_PLTGOT_SEG": 1610612813,
+    "IA_64_VMS_FPMODE": 1610612815
+  },
+  "SHT": {
+    "IA_64_EXT": 1879048192,
+    "IA_64_UNWIND": 1879048193,
+    "IA_64_LOPSREG": 1879048192,
+    "IA_64_HIPSREG": 1879048192,
+    "IA_64_PRIORITY_INIT": 1879048192,
+    "IA_64_HP_OPT_ANOT": 1610612740,
+    "IA_64_VMS_TRACE": 1610612736,
+    "IA_64_VMS_TIE_SIGNATURES": 1610612737,
+    "IA_64_VMS_DEBUG": 1610612738,
+    "IA_64_VMS_DEBUG_STR": 1610612739,
+    "IA_64_VMS_LINKAGES": 1610612740,
+    "IA_64_VMS_SYMBOL_VECTOR": 1610612741,
+    "IA_64_VMS_FIXUP": 1610612742,
+    "IA_64_VMS_DISPLAY_NAME_INFO": 1610612743
+  },
+  "PT": {
+    "IA_64_ARCHEXT": 1879048192,
+    "IA_64_UNWIND": 1879048193,
+    "IA_64_HP_OPT_ANOT": 1610612736,
+    "IA_64_HP_HSL_ANOT": 1610612736,
+    "IA_64_HP_STACK": 1610612736
+  },
+  "NT": {
+    "VMS_MHD": 1,
+    "VMS_LNM": 2,
+    "VMS_SRC": 3,
+    "VMS_TITLE": 4,
+    "VMS_EIDC": 5,
+    "VMS_FPMODE": 6,
+    "VMS_LINKTIME": 101,
+    "VMS_IMGNAM": 102,
+    "VMS_IMGID": 103,
+    "VMS_LINKID": 104,
+    "VMS_IMGBID": 105,
+    "VMS_GSTNAM": 106,
+    "VMS_ORIG_DYN": 107,
+    "VMS_PATCHTIME": 108
+  },
+  "structs": {
+    "Elf64_External_VMS_IMAGE_FIXUP": [
+      {
+        "key": "fixup_offset",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "type",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "fixup_seg",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "addend",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "symvec_index",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "data_type",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf64_External_VMS_IMAGE_RELA": [
+      {
+        "key": "rela_offset",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "type",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "rela_seg",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "addend",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "sym_offset",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "sym_seg",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "fill_1",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf64_External_VMS_Note": [
+      {
+        "key": "namesz",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "descsz",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "type",
+        "size": 64,
+        "dflt": 0
+      }
+    ],
+    "Elf64_External_VMS_ORIG_DYN_Note": [
+      {
+        "key": "major_id",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "minor_id",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "manipulation_date",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "link_flags",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "elf_flags",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "_pad",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "imgid",
+        "size": 8,
+        "dflt": 0
+      }
+    ]
+  }
+}

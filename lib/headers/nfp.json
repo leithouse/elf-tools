@@ -1,0 +1,55 @@
+{
+  "DT": {},
+  "SHT": {
+    "NFP_MECONFIG": 1879048193,
+    "NFP_INITREG": 1879048194
+  },
+  "PT": {},
+  "NT": {},
+  "structs": {
+    "Elf_Nfp_InitRegEntry": [
+      {
+        "key": "w0",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "cpp_offset_lo",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "val",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "mask",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf_Nfp_MeConfig": [
+      {
+        "key": "ctx_enables",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "entry",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "misc_control",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "reserved",
+        "size": 32,
+        "dflt": 0
+      }
+    ]
+  }
+}

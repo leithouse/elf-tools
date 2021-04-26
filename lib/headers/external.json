@@ -1,0 +1,688 @@
+{
+  "DT": {},
+  "SHT": {},
+  "PT": {},
+  "NT": {},
+  "structs": {
+    "Elf32_External_Ehdr": [
+      {
+        "key": "e_ident",
+        "size": 128,
+        "dflt": 0
+      },
+      {
+        "key": "e_type",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "e_machine",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "e_version",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "e_entry",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "e_phoff",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "e_shoff",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "e_flags",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "e_ehsize",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "e_phentsize",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "e_phnum",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "e_shentsize",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "e_shnum",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "e_shstrndx",
+        "size": 16,
+        "dflt": 0
+      }
+    ],
+    "Elf64_External_Ehdr": [
+      {
+        "key": "e_ident",
+        "size": 128,
+        "dflt": 0
+      },
+      {
+        "key": "e_type",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "e_machine",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "e_version",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "e_entry",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "e_phoff",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "e_shoff",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "e_flags",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "e_ehsize",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "e_phentsize",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "e_phnum",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "e_shentsize",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "e_shnum",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "e_shstrndx",
+        "size": 16,
+        "dflt": 0
+      }
+    ],
+    "Elf32_External_Phdr": [
+      {
+        "key": "p_type",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "p_offset",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "p_vaddr",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "p_paddr",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "p_filesz",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "p_memsz",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "p_flags",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "p_align",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf64_External_Phdr": [
+      {
+        "key": "p_type",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "p_flags",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "p_offset",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "p_vaddr",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "p_paddr",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "p_filesz",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "p_memsz",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "p_align",
+        "size": 64,
+        "dflt": 0
+      }
+    ],
+    "Elf32_External_Shdr": [
+      {
+        "key": "sh_name",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "sh_type",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "sh_flags",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "sh_addr",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "sh_offset",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "sh_size",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "sh_link",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "sh_info",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "sh_addralign",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "sh_entsize",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf64_External_Shdr": [
+      {
+        "key": "sh_name",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "sh_type",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "sh_flags",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "sh_addr",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "sh_offset",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "sh_size",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "sh_link",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "sh_info",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "sh_addralign",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "sh_entsize",
+        "size": 64,
+        "dflt": 0
+      }
+    ],
+    "Elf32_External_Chdr": [
+      {
+        "key": "ch_type",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "ch_size",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "ch_addralign",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf64_External_Chdr": [
+      {
+        "key": "ch_type",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "ch_reserved",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "ch_size",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "ch_addralign",
+        "size": 64,
+        "dflt": 0
+      }
+    ],
+    "Elf32_External_Sym": [
+      {
+        "key": "st_name",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "st_value",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "st_size",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "st_info",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "st_other",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "st_shndx",
+        "size": 16,
+        "dflt": 0
+      }
+    ],
+    "Elf64_External_Sym": [
+      {
+        "key": "st_name",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "st_info",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "st_other",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "st_shndx",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "st_value",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "st_size",
+        "size": 64,
+        "dflt": 0
+      }
+    ],
+    "Elf_External_Sym_Shndx": [
+      {
+        "key": "est_shndx",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf_External_Note": [
+      {
+        "key": "namesz",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "descsz",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "type",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf32_External_Rel": [
+      {
+        "key": "r_offset",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "r_info",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf32_External_Rela": [
+      {
+        "key": "r_offset",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "r_info",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "r_addend",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf64_External_Rel": [
+      {
+        "key": "r_offset",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "r_info",
+        "size": 64,
+        "dflt": 0
+      }
+    ],
+    "Elf64_External_Rela": [
+      {
+        "key": "r_offset",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "r_info",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "r_addend",
+        "size": 64,
+        "dflt": 0
+      }
+    ],
+    "d_un": [
+      {
+        "key": "d_tag",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "d_val",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "d_ptr",
+        "size": 64,
+        "dflt": 0
+      }
+    ],
+    "Elf_External_Verdef": [
+      {
+        "key": "vd_version",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "vd_flags",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "vd_ndx",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "vd_cnt",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "vd_hash",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "vd_aux",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "vd_next",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf_External_Verdaux": [
+      {
+        "key": "vda_name",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "vda_next",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf_External_Verneed": [
+      {
+        "key": "vn_version",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "vn_cnt",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "vn_file",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "vn_aux",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "vn_next",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf_External_Vernaux": [
+      {
+        "key": "vna_hash",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "vna_flags",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "vna_other",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "vna_name",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "vna_next",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "ATTRIBUTE_PACKED": [
+      {
+        "key": "vs_vers",
+        "size": 16,
+        "dflt": 0
+      }
+    ],
+    "Elf_External_Syminfo": [
+      {
+        "key": "si_boundto",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "si_flags",
+        "size": 16,
+        "dflt": 0
+      }
+    ],
+    "Elf32_External_Auxv": [
+      {
+        "key": "a_type",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "a_val",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf64_External_Auxv": [
+      {
+        "key": "a_type",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "a_val",
+        "size": 64,
+        "dflt": 0
+      }
+    ]
+  }
+}

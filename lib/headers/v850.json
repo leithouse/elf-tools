@@ -1,0 +1,19 @@
+{
+  "DT": {},
+  "SHT": {
+    "V850_SCOMMON": 1879048192,
+    "V850_TCOMMON": 1879048193,
+    "V850_ZCOMMON": 1879048194,
+    "RENESAS_INFO": 2684354560
+  },
+  "PT": {},
+  "NT": {
+    "V850_NOTE_ALIGNMENT":   1,
+    "V850_NOTE_DATA_SIZE":   2,
+    "V850_NOTE_FPU_INFO":    3,
+    "V850_NOTE_SIMD_INFO":   4,
+    "V850_NOTE_CACHE_INFO":  5,
+    "V850_NOTE_MMU_INFO":    6
+  },
+  "structs": {}
+}

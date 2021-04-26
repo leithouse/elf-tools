@@ -1,0 +1,28 @@
+{
+  "DT": {},
+  "SHT": {
+    "ALPHA_DEBUG": 1879048193,
+    "ALPHA_REGINFO": 1879048194
+  },
+  "PT": {},
+  "NT": {},
+  "structs": {
+    "Elf64_RegInfo": [
+      {
+        "key": "ri_gprmask",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "ri_cprmask",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "ri_gp_value",
+        "size": 8,
+        "dflt": 0
+      }
+    ]
+  }
+}

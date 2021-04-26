@@ -1,0 +1,357 @@
+{
+  "DT": {
+    "MIPS_RLD_VERSION": 1879048193,
+    "MIPS_TIME_STAMP": 1879048194,
+    "MIPS_ICHECKSUM": 1879048195,
+    "MIPS_IVERSION": 1879048196,
+    "MIPS_FLAGS": 1879048197,
+    "MIPS_BASE_ADDRESS": 1879048198,
+    "MIPS_MSYM": 1879048199,
+    "MIPS_CONFLICT": 1879048200,
+    "MIPS_LIBLIST": 1879048201,
+    "MIPS_LOCAL_GOTNO": 1879048202,
+    "MIPS_CONFLICTNO": 1879048203,
+    "MIPS_LIBLISTNO": 1879048208,
+    "MIPS_SYMTABNO": 1879048209,
+    "MIPS_UNREFEXTNO": 1879048210,
+    "MIPS_GOTSYM": 1879048211,
+    "MIPS_HIPAGENO": 1879048212,
+    "MIPS_RLD_MAP": 1879048214,
+    "MIPS_DELTA_CLASS": 1879048215,
+    "MIPS_DELTA_CLASS_NO": 1879048216,
+    "MIPS_DELTA_INSTANCE": 1879048217,
+    "MIPS_DELTA_INSTANCE_NO": 1879048218,
+    "MIPS_DELTA_RELOC": 1879048219,
+    "MIPS_DELTA_RELOC_NO": 1879048220,
+    "MIPS_DELTA_SYM": 1879048221,
+    "MIPS_DELTA_SYM_NO": 1879048222,
+    "MIPS_DELTA_CLASSSYM": 1879048224,
+    "MIPS_DELTA_CLASSSYM_NO": 1879048225,
+    "MIPS_CXX_FLAGS": 1879048226,
+    "MIPS_PIXIE_INIT": 1879048227,
+    "MIPS_SYMBOL_LIB": 1879048228,
+    "MIPS_LOCALPAGE_GOTIDX": 1879048229,
+    "MIPS_LOCAL_GOTIDX": 1879048230,
+    "MIPS_HIDDEN_GOTIDX": 1879048231,
+    "MIPS_PROTECTED_GOTIDX": 1879048232,
+    "MIPS_OPTIONS": 1879048233,
+    "MIPS_INTERFACE": 1879048234,
+    "MIPS_DYNSTR_ALIGN": 1879048235,
+    "MIPS_INTERFACE_SIZE": 1879048236,
+    "MIPS_RLD_TEXT_RESOLVE_ADDR": 1879048237,
+    "MIPS_PERF_SUFFIX": 1879048238,
+    "MIPS_COMPACT_SIZE": 1879048239,
+    "MIPS_GP_VALUE": 1879048240,
+    "MIPS_AUX_DYNAMIC": 1879048241,
+    "MIPS_PLTGOT": 1879048242,
+    "MIPS_RWPLT": 1879048244,
+    "MIPS_RLD_MAP_REL": 1879048245,
+    "MIPS_XHASH": 1879048246
+  },
+  "SHT": {
+    "MIPS_LIBLIST": 1879048192,
+    "MIPS_MSYM": 1879048193,
+    "MIPS_CONFLICT": 1879048194,
+    "MIPS_GPTAB": 1879048195,
+    "MIPS_UCODE": 1879048196,
+    "MIPS_DEBUG": 1879048197,
+    "MIPS_REGINFO": 1879048198,
+    "MIPS_PACKAGE": 1879048199,
+    "MIPS_PACKSYM": 1879048200,
+    "MIPS_RELD": 1879048201,
+    "MIPS_IFACE": 1879048203,
+    "MIPS_CONTENT": 1879048204,
+    "MIPS_OPTIONS": 1879048205,
+    "MIPS_SHDR": 1879048208,
+    "MIPS_FDESC": 1879048209,
+    "MIPS_EXTSYM": 1879048210,
+    "MIPS_DENSE": 1879048211,
+    "MIPS_PDESC": 1879048212,
+    "MIPS_LOCSYM": 1879048213,
+    "MIPS_AUXSYM": 1879048214,
+    "MIPS_OPTSYM": 1879048215,
+    "MIPS_LOCSTR": 1879048216,
+    "MIPS_LINE": 1879048217,
+    "MIPS_RFDESC": 1879048218,
+    "MIPS_DELTASYM": 1879048219,
+    "MIPS_DELTAINST": 1879048220,
+    "MIPS_DELTACLASS": 1879048221,
+    "MIPS_DWARF": 1879048222,
+    "MIPS_DELTADECL": 1879048223,
+    "MIPS_SYMBOL_LIB": 1879048224,
+    "MIPS_EVENTS": 1879048225,
+    "MIPS_TRANSLATE": 1879048226,
+    "MIPS_PIXIE": 1879048227,
+    "MIPS_XLATE": 1879048228,
+    "MIPS_XLATE_DEBUG": 1879048229,
+    "MIPS_WHIRL": 1879048230,
+    "MIPS_EH_REGION": 1879048231,
+    "MIPS_XLATE_OLD": 1879048232,
+    "MIPS_PDR_EXCEPTION": 1879048233,
+    "MIPS_ABIFLAGS": 1879048234,
+    "MIPS_XHASH": 1879048235
+  },
+  "PT": {
+    "MIPS_REGINFO": 1879048192,
+    "MIPS_RTPROC": 1879048193,
+    "MIPS_OPTIONS": 1879048194,
+    "MIPS_ABIFLAGS": 1879048195
+  },
+  "NT": {},
+  "structs": {
+    "Elf32_Lib": [
+      {
+        "key": "l_name",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "l_time_stamp",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "l_checksum",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "l_version",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "l_flags",
+        "size": 8,
+        "dflt": 0
+      }
+    ],
+    "Elf32_External_Lib": [
+      {
+        "key": "l_name",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "l_time_stamp",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "l_checksum",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "l_version",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "l_flags",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf32_RegInfo": [],
+    "Elf32_External_RegInfo": [
+      {
+        "key": "ri_gprmask",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "ri_cprmask",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "ri_gp_value",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf64_Mips_External_Rel": [
+      {
+        "key": "r_offset",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "r_sym",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "r_ssym",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "r_type3",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "r_type2",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "r_type",
+        "size": 8,
+        "dflt": 0
+      }
+    ],
+    "Elf64_Mips_External_Rela": [
+      {
+        "key": "r_offset",
+        "size": 64,
+        "dflt": 0
+      },
+      {
+        "key": "r_sym",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "r_ssym",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "r_type3",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "r_type2",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "r_type",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "r_addend",
+        "size": 64,
+        "dflt": 0
+      }
+    ],
+    "Elf_External_Options": [
+      {
+        "key": "kind",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "size",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "section",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "info",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf64_External_RegInfo": [
+      {
+        "key": "ri_gprmask",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "ri_pad",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "ri_cprmask",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "ri_gp_value",
+        "size": 64,
+        "dflt": 0
+      }
+    ],
+    "Elf_External_ABIFlags_v0": [
+      {
+        "key": "version",
+        "size": 16,
+        "dflt": 0
+      },
+      {
+        "key": "isa_level",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "isa_rev",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "gpr_size",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "cpr1_size",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "cpr2_size",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "fp_abi",
+        "size": 8,
+        "dflt": 0
+      },
+      {
+        "key": "isa_ext",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "ases",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "flags1",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "flags2",
+        "size": 32,
+        "dflt": 0
+      }
+    ],
+    "Elf32_External_Msym": [
+      {
+        "key": "ms_hash_value",
+        "size": 32,
+        "dflt": 0
+      },
+      {
+        "key": "ms_info",
+        "size": 32,
+        "dflt": 0
+      }
+    ]
+  }
+}

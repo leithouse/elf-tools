@@ -96,16 +96,6 @@ describe('PHdr', function() {
       let chk = fbuff.slice(start,start+size);
       expect(Buffer.compare(chk,table.buffer)).equal(0);
     });
-    it('attaches segment data', function() {
-      table.forEach((entry)=>{
-        if(entry.p_filesz) {
-          expect(entry.data).instanceof(Buffer);
-          expect(entry.data).length(entry.p_filesz);
-        }
-        else
-          expect(entry.data).null;
-      });
-    });
   });
   describe('32 bit', function() {
     before(async function() {
@@ -188,16 +178,6 @@ describe('PHdr', function() {
         let start = parseInt(ehdr.e_phoff);
         let chk = fbuff.slice(start,start+size);
         expect(Buffer.compare(chk,table.buffer)).equal(0);
-      });
-      it('attaches segment data', function() {
-        table.forEach((entry)=>{
-          if(entry.p_filesz) {
-            expect(entry.data).instanceof(Buffer);
-            expect(entry.data).length(entry.p_filesz);
-          }
-          else
-            expect(entry.data).null;
-        });
       });
     });
   });

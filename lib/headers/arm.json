@@ -1,0 +1,15 @@
+{
+  "DT": {},
+  "SHT": {
+    "ARM_EXIDX": 1879048193,
+    "ARM_PREEMPTMAP": 1879048194,
+    "ARM_ATTRIBUTES": 1879048195,
+    "ARM_DEBUGOVERLAY": 1879048196,
+    "ARM_OVERLAYSECTION": 1879048197
+  },
+  "PT": {
+    "ARM_EXIDX": 1879048193
+  },
+  "NT": {},
+  "structs": {}
+}
