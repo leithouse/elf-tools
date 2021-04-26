@@ -1,0 +1,34 @@
+Printing dynamic tags for /bin/ls
+
+SHdr:{name=.dynamic, sh_name=0xfa, sh_type=SHT_DYNAMIC, sh_flags=0x3, sh_addr=0x22a58, sh_offset=0x21a58, sh_size=0x200, sh_link=0x7, sh_info=0x0, sh_addralign=0x8, sh_entsize=0x10}
+
+Dynamic Tags:
+ [  0] Dyn:{d_tag=DT_NEEDED, d_un=0x1, name=libselinux.so.1}
+ [  1] Dyn:{d_tag=DT_NEEDED, d_un=0x76, name=libc.so.6}
+ [  2] Dyn:{d_tag=DT_INIT, d_un=0x4000}
+ [  3] Dyn:{d_tag=DT_FINI, d_un=0x17574}
+ [  4] Dyn:{d_tag=DT_INIT_ARRAY, d_un=0x22010}
+ [  5] Dyn:{d_tag=DT_INIT_ARRAYSZ, d_un=0x8}
+ [  6] Dyn:{d_tag=DT_FINI_ARRAY, d_un=0x22018}
+ [  7] Dyn:{d_tag=DT_FINI_ARRAYSZ, d_un=0x8}
+ [  8] Dyn:{d_tag=DT_GNU_HASH, d_un=0x3a0}
+ [  9] Dyn:{d_tag=DT_STRTAB, d_un=0x1190}
+ [ 10] Dyn:{d_tag=DT_SYMTAB, d_un=0x488}
+ [ 11] Dyn:{d_tag=DT_STRSZ, d_un=0x64c}
+ [ 12] Dyn:{d_tag=DT_SYMENT, d_un=0x18}
+ [ 13] Dyn:{d_tag=DT_DEBUG, d_un=0x0}
+ [ 14] Dyn:{d_tag=DT_PLTGOT, d_un=0x22c58}
+ [ 15] Dyn:{d_tag=DT_PLTRELSZ, d_un=0x9f0}
+ [ 16] Dyn:{d_tag=DT_PLTREL, d_un=0x7}
+ [ 17] Dyn:{d_tag=DT_JMPREL, d_un=0x2cb8}
+ [ 18] Dyn:{d_tag=DT_RELA, d_un=0x1968}
+ [ 19] Dyn:{d_tag=DT_RELASZ, d_un=0x1350}
+ [ 20] Dyn:{d_tag=DT_RELAENT, d_un=0x18}
+ [ 21] Dyn:{d_tag=DT_FLAGS, d_un=0x8}
+ [ 22] Dyn:{d_tag=DT_FLAGS_1, d_un=0x8000001}
+ [ 23] Dyn:{d_tag=DT_VERNEED, d_un=0x18f8}
+ [ 24] Dyn:{d_tag=DT_VERNEEDNUM, d_un=0x1}
+ [ 25] Dyn:{d_tag=DT_VERSYM, d_un=0x17dc}
+ [ 26] Dyn:{d_tag=DT_RELACOUNT, d_un=0xc1}
+ [ 27] Dyn:{d_tag=DT_NULL, d_un=0x0}
+

@@ -1,0 +1,34 @@
+Printing section header table for /bin/ls
+
+Section Headers:
+ [  0] SHdr:{name=undefined, sh_name=0x0, sh_type=SHT_NULL, sh_flags=0x0, sh_addr=0x0, sh_offset=0x0, sh_size=0x0, sh_link=0x0, sh_info=0x0, sh_addralign=0x0, sh_entsize=0x0}
+ [  1] SHdr:{name=.interp, sh_name=0xb, sh_type=SHT_PROGBITS, sh_flags=0x2, sh_addr=0x318, sh_offset=0x318, sh_size=0x1c, sh_link=0x0, sh_info=0x0, sh_addralign=0x1, sh_entsize=0x0}
+ [  2] SHdr:{name=.note.gnu.property, sh_name=0x13, sh_type=SHT_NOTE, sh_flags=0x2, sh_addr=0x338, sh_offset=0x338, sh_size=0x20, sh_link=0x0, sh_info=0x0, sh_addralign=0x8, sh_entsize=0x0}
+ [  3] SHdr:{name=.note.gnu.build-id, sh_name=0x26, sh_type=SHT_NOTE, sh_flags=0x2, sh_addr=0x358, sh_offset=0x358, sh_size=0x24, sh_link=0x0, sh_info=0x0, sh_addralign=0x4, sh_entsize=0x0}
+ [  4] SHdr:{name=.note.ABI-tag, sh_name=0x39, sh_type=SHT_NOTE, sh_flags=0x2, sh_addr=0x37c, sh_offset=0x37c, sh_size=0x20, sh_link=0x0, sh_info=0x0, sh_addralign=0x4, sh_entsize=0x0}
+ [  5] SHdr:{name=.gnu.hash, sh_name=0x47, sh_type=SHT_GNU_HASH, sh_flags=0x2, sh_addr=0x3a0, sh_offset=0x3a0, sh_size=0xe4, sh_link=0x6, sh_info=0x0, sh_addralign=0x8, sh_entsize=0x0}
+ [  6] SHdr:{name=.dynsym, sh_name=0x51, sh_type=SHT_DYNSYM, sh_flags=0x2, sh_addr=0x488, sh_offset=0x488, sh_size=0xd08, sh_link=0x7, sh_info=0x1, sh_addralign=0x8, sh_entsize=0x18}
+ [  7] SHdr:{name=.dynstr, sh_name=0x59, sh_type=SHT_STRTAB, sh_flags=0x2, sh_addr=0x1190, sh_offset=0x1190, sh_size=0x64c, sh_link=0x0, sh_info=0x0, sh_addralign=0x1, sh_entsize=0x0}
+ [  8] SHdr:{name=.gnu.version, sh_name=0x61, sh_type=SHT_HIOS, sh_flags=0x2, sh_addr=0x17dc, sh_offset=0x17dc, sh_size=0x116, sh_link=0x6, sh_info=0x0, sh_addralign=0x2, sh_entsize=0x2}
+ [  9] SHdr:{name=.gnu.version_r, sh_name=0x6e, sh_type=SHT_SUNW_verneed, sh_flags=0x2, sh_addr=0x18f8, sh_offset=0x18f8, sh_size=0x70, sh_link=0x7, sh_info=0x1, sh_addralign=0x8, sh_entsize=0x0}
+ [ 10] SHdr:{name=.rela.dyn, sh_name=0x7d, sh_type=SHT_RELA, sh_flags=0x2, sh_addr=0x1968, sh_offset=0x1968, sh_size=0x1350, sh_link=0x6, sh_info=0x0, sh_addralign=0x8, sh_entsize=0x18}
+ [ 11] SHdr:{name=.rela.plt, sh_name=0x87, sh_type=SHT_RELA, sh_flags=0x42, sh_addr=0x2cb8, sh_offset=0x2cb8, sh_size=0x9f0, sh_link=0x6, sh_info=0x19, sh_addralign=0x8, sh_entsize=0x18}
+ [ 12] SHdr:{name=.init, sh_name=0x91, sh_type=SHT_PROGBITS, sh_flags=0x6, sh_addr=0x4000, sh_offset=0x4000, sh_size=0x1b, sh_link=0x0, sh_info=0x0, sh_addralign=0x4, sh_entsize=0x0}
+ [ 13] SHdr:{name=undefined, sh_name=0x8c, sh_type=SHT_PROGBITS, sh_flags=0x6, sh_addr=0x4020, sh_offset=0x4020, sh_size=0x6b0, sh_link=0x0, sh_info=0x0, sh_addralign=0x10, sh_entsize=0x10}
+ [ 14] SHdr:{name=.plt.got, sh_name=0x97, sh_type=SHT_PROGBITS, sh_flags=0x6, sh_addr=0x46d0, sh_offset=0x46d0, sh_size=0x30, sh_link=0x0, sh_info=0x0, sh_addralign=0x10, sh_entsize=0x10}
+ [ 15] SHdr:{name=.plt.sec, sh_name=0xa0, sh_type=SHT_PROGBITS, sh_flags=0x6, sh_addr=0x4700, sh_offset=0x4700, sh_size=0x6a0, sh_link=0x0, sh_info=0x0, sh_addralign=0x10, sh_entsize=0x10}
+ [ 16] SHdr:{name=.text, sh_name=0xa9, sh_type=SHT_PROGBITS, sh_flags=0x6, sh_addr=0x4da0, sh_offset=0x4da0, sh_size=0x127d2, sh_link=0x0, sh_info=0x0, sh_addralign=0x10, sh_entsize=0x0}
+ [ 17] SHdr:{name=.fini, sh_name=0xaf, sh_type=SHT_PROGBITS, sh_flags=0x6, sh_addr=0x17574, sh_offset=0x17574, sh_size=0xd, sh_link=0x0, sh_info=0x0, sh_addralign=0x4, sh_entsize=0x0}
+ [ 18] SHdr:{name=.rodata, sh_name=0xb5, sh_type=SHT_PROGBITS, sh_flags=0x2, sh_addr=0x18000, sh_offset=0x18000, sh_size=0x5249, sh_link=0x0, sh_info=0x0, sh_addralign=0x20, sh_entsize=0x0}
+ [ 19] SHdr:{name=.eh_frame_hdr, sh_name=0xbd, sh_type=SHT_PROGBITS, sh_flags=0x2, sh_addr=0x1d24c, sh_offset=0x1d24c, sh_size=0x92c, sh_link=0x0, sh_info=0x0, sh_addralign=0x4, sh_entsize=0x0}
+ [ 20] SHdr:{name=.eh_frame, sh_name=0xcb, sh_type=SHT_PROGBITS, sh_flags=0x2, sh_addr=0x1db78, sh_offset=0x1db78, sh_size=0x2fd8, sh_link=0x0, sh_info=0x0, sh_addralign=0x8, sh_entsize=0x0}
+ [ 21] SHdr:{name=.init_array, sh_name=0xd5, sh_type=SHT_INIT_ARRAY, sh_flags=0x3, sh_addr=0x22010, sh_offset=0x21010, sh_size=0x8, sh_link=0x0, sh_info=0x0, sh_addralign=0x8, sh_entsize=0x8}
+ [ 22] SHdr:{name=.fini_array, sh_name=0xe1, sh_type=SHT_FINI_ARRAY, sh_flags=0x3, sh_addr=0x22018, sh_offset=0x21018, sh_size=0x8, sh_link=0x0, sh_info=0x0, sh_addralign=0x8, sh_entsize=0x8}
+ [ 23] SHdr:{name=.data.rel.ro, sh_name=0xed, sh_type=SHT_PROGBITS, sh_flags=0x3, sh_addr=0x22020, sh_offset=0x21020, sh_size=0xa38, sh_link=0x0, sh_info=0x0, sh_addralign=0x20, sh_entsize=0x0}
+ [ 24] SHdr:{name=.dynamic, sh_name=0xfa, sh_type=SHT_DYNAMIC, sh_flags=0x3, sh_addr=0x22a58, sh_offset=0x21a58, sh_size=0x200, sh_link=0x7, sh_info=0x0, sh_addralign=0x8, sh_entsize=0x10}
+ [ 25] SHdr:{name=undefined, sh_name=0x9b, sh_type=SHT_PROGBITS, sh_flags=0x3, sh_addr=0x22c58, sh_offset=0x21c58, sh_size=0x3a0, sh_link=0x0, sh_info=0x0, sh_addralign=0x8, sh_entsize=0x8}
+ [ 26] SHdr:{name=.data, sh_name=0x103, sh_type=SHT_PROGBITS, sh_flags=0x3, sh_addr=0x23000, sh_offset=0x22000, sh_size=0x268, sh_link=0x0, sh_info=0x0, sh_addralign=0x20, sh_entsize=0x0}
+ [ 27] SHdr:{name=.bss, sh_name=0x109, sh_type=SHT_NOBITS, sh_flags=0x3, sh_addr=0x23280, sh_offset=0x22268, sh_size=0x12d8, sh_link=0x0, sh_info=0x0, sh_addralign=0x20, sh_entsize=0x0}
+ [ 28] SHdr:{name=.gnu_debuglink, sh_name=0x10e, sh_type=SHT_PROGBITS, sh_flags=0x0, sh_addr=0x0, sh_offset=0x22268, sh_size=0x34, sh_link=0x0, sh_info=0x0, sh_addralign=0x4, sh_entsize=0x0}
+ [ 29] SHdr:{name=.shstrtab, sh_name=0x1, sh_type=SHT_STRTAB, sh_flags=0x0, sh_addr=0x0, sh_offset=0x2229c, sh_size=0x11d, sh_link=0x0, sh_info=0x0, sh_addralign=0x1, sh_entsize=0x0}
+

@@ -1,0 +1,17 @@
+Printing program header table for /bin/ls
+
+Program Headers:
+ [  0] PHdr:{p_type=PT_PHDR, p_flags=0x4, p_offset=0x40, p_vaddr=0x40, p_paddr=0x40, p_filesz=0x2d8, p_memsz=0x2d8, p_align=0x8, segmentCnt=0, sectionCnt=0}
+ [  1] PHdr:{p_type=PT_INTERP, p_flags=0x4, p_offset=0x318, p_vaddr=0x318, p_paddr=0x318, p_filesz=0x1c, p_memsz=0x1c, p_align=0x1, segmentCnt=0, sectionCnt=1}
+ [  2] PHdr:{p_type=PT_LOAD, p_flags=0x4, p_offset=0x0, p_vaddr=0x0, p_paddr=0x0, p_filesz=0x36a8, p_memsz=0x36a8, p_align=0x1000, segmentCnt=5, sectionCnt=7}
+ [  3] PHdr:{p_type=PT_LOAD, p_flags=0x5, p_offset=0x4000, p_vaddr=0x4000, p_paddr=0x4000, p_filesz=0x13581, p_memsz=0x13581, p_align=0x1000, segmentCnt=0, sectionCnt=6}
+ [  4] PHdr:{p_type=PT_LOAD, p_flags=0x4, p_offset=0x18000, p_vaddr=0x18000, p_paddr=0x18000, p_filesz=0x8b50, p_memsz=0x8b50, p_align=0x1000, segmentCnt=1, sectionCnt=2}
+ [  5] PHdr:{p_type=PT_LOAD, p_flags=0x6, p_offset=0x21010, p_vaddr=0x22010, p_paddr=0x22010, p_filesz=0x1258, p_memsz=0x2548, p_align=0x1000, segmentCnt=1, sectionCnt=1}
+ [  6] PHdr:{p_type=PT_DYNAMIC, p_flags=0x6, p_offset=0x21a58, p_vaddr=0x22a58, p_paddr=0x22a58, p_filesz=0x200, p_memsz=0x200, p_align=0x8, segmentCnt=0, sectionCnt=2}
+ [  7] PHdr:{p_type=PT_NOTE, p_flags=0x4, p_offset=0x338, p_vaddr=0x338, p_paddr=0x338, p_filesz=0x20, p_memsz=0x20, p_align=0x8, segmentCnt=1, sectionCnt=0}
+ [  8] PHdr:{p_type=PT_NOTE, p_flags=0x4, p_offset=0x358, p_vaddr=0x358, p_paddr=0x358, p_filesz=0x44, p_memsz=0x44, p_align=0x4, segmentCnt=0, sectionCnt=2}
+ [  9] PHdr:{p_type=PT_GNU_PROPERTY, p_flags=0x4, p_offset=0x338, p_vaddr=0x338, p_paddr=0x338, p_filesz=0x20, p_memsz=0x20, p_align=0x8, segmentCnt=0, sectionCnt=1}
+ [ 10] PHdr:{p_type=PT_GNU_EH_FRAME, p_flags=0x4, p_offset=0x1d24c, p_vaddr=0x1d24c, p_paddr=0x1d24c, p_filesz=0x92c, p_memsz=0x92c, p_align=0x4, segmentCnt=0, sectionCnt=1}
+ [ 11] PHdr:{p_type=PT_GNU_STACK, p_flags=0x6, p_offset=0x0, p_vaddr=0x0, p_paddr=0x0, p_filesz=0x0, p_memsz=0x0, p_align=0x10, segmentCnt=0, sectionCnt=0}
+ [ 12] PHdr:{p_type=PT_GNU_RELRO, p_flags=0x4, p_offset=0x21010, p_vaddr=0x22010, p_paddr=0x22010, p_filesz=0xff0, p_memsz=0xff0, p_align=0x1, segmentCnt=1, sectionCnt=4}
+

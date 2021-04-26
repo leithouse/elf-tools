@@ -1,0 +1,145 @@
+Printing dynamic symbols for /bin/ls
+
+SHdr:{name=.dynsym, sh_name=0x51, sh_type=SHT_DYNSYM, sh_flags=0x2, sh_addr=0x488, sh_offset=0x488, sh_size=0xd08, sh_link=0x7, sh_info=0x1, sh_addralign=0x8, sh_entsize=0x18}
+
+Symbols:
+ [  0] Sym:{name=undefined, st_name=0x0, st_info=0x0, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_NOTYPE, st_bind=STB_LOCAL}
+ [  1] Sym:{name=__ctype_toupper_loc, st_name=0x41a, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [  2] Sym:{name=getenv, st_name=0x2ca, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [  3] Sym:{name=sigprocmask, st_name=0x130, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [  4] Sym:{name=__snprintf_chk, st_name=0x330, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [  5] Sym:{name=raise, st_name=0x294, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [  6] Sym:{name=abort, st_name=0x167, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [  7] Sym:{name=__errno_location, st_name=0x208, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [  8] Sym:{name=strncmp, st_name=0xc6, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [  9] Sym:{name=_ITM_deregisterTMCloneTable, st_name=0x11, st_info=0x20, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_NOTYPE, st_bind=STB_WEAK}
+ [ 10] Sym:{name=localtime_r, st_name=0x1a9, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 11] Sym:{name=_exit, st_name=0x16d, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 12] Sym:{name=strcpy, st_name=0x87, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 13] Sym:{name=__fpending, st_name=0x3d1, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 14] Sym:{name=isatty, st_name=0x1cc, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 15] Sym:{name=sigaction, st_name=0x3a0, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 16] Sym:{name=iswcntrl, st_name=0x3e3, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 17] Sym:{name=wcswidth, st_name=0x25a, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 18] Sym:{name=localeconv, st_name=0x1fd, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 19] Sym:{name=mbstowcs, st_name=0x127, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 20] Sym:{name=readlink, st_name=0x33f, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 21] Sym:{name=clock_gettime, st_name=0x3c3, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 22] Sym:{name=undefined, st_name=0x22a, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 23] Sym:{name=undefined, st_name=0x4a8, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 24] Sym:{name=fclose, st_name=0x277, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 25] Sym:{name=opendir, st_name=0x2b4, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 26] Sym:{name=getpwuid, st_name=0xff, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 27] Sym:{name=bindtextdomain, st_name=0x4a4, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 28] Sym:{name=dcgettext, st_name=0xed, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 29] Sym:{name=__ctype_get_mb_cur_max, st_name=0x1b5, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 30] Sym:{name=strlen, st_name=0x1e3, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 31] Sym:{name=__lxstat, st_name=0x14d, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 32] Sym:{name=__stack_chk_fail, st_name=0x13c, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 33] Sym:{name=getopt_long, st_name=0x348, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 34] Sym:{name=mbrtowc, st_name=0xbe, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 35] Sym:{name=strchr, st_name=0x3dc, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 36] Sym:{name=getgrgid, st_name=0x111, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 37] Sym:{name=__fxstatat, st_name=0x4b3, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 38] Sym:{name=snprintf, st_name=0x506, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 39] Sym:{name=__overflow, st_name=0x50f, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 40] Sym:{name=strrchr, st_name=0xd5, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 41] Sym:{name=fgetfilecon, st_name=0x56, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 42] Sym:{name=gmtime_r, st_name=0x8e, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 43] Sym:{name=lseek, st_name=0x26a, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 44] Sym:{name=gettimeofday, st_name=0x393, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 45] Sym:{name=__assert_fail, st_name=0x19b, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 46] Sym:{name=__strtoul_internal, st_name=0x51a, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 47] Sym:{name=fnmatch, st_name=0xa4, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 48] Sym:{name=memset, st_name=0x1f6, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 49] Sym:{name=ioctl, st_name=0x307, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 50] Sym:{name=getcwd, st_name=0x385, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 51] Sym:{name=strspn, st_name=0x173, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 52] Sym:{name=closedir, st_name=0x108, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 53] Sym:{name=__libc_start_main, st_name=0x4df, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 54] Sym:{name=memcmp, st_name=0x219, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 55] Sym:{name=_setjmp, st_name=0x231, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 56] Sym:{name=fputs_unlocked, st_name=0x53b, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 57] Sym:{name=calloc, st_name=0x1dc, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 58] Sym:{name=lgetfilecon, st_name=0x6a, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 59] Sym:{name=strcmp, st_name=0x4ce, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 60] Sym:{name=signal, st_name=0x120, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 61] Sym:{name=dirfd, st_name=0x4f1, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 62] Sym:{name=getpwnam, st_name=0x1d3, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 63] Sym:{name=__memcpy_chk, st_name=0x3aa, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 64] Sym:{name=sigemptyset, st_name=0x1ea, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 65] Sym:{name=__gmon_start__, st_name=0x2d, st_info=0x20, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_NOTYPE, st_bind=STB_WEAK}
+ [ 66] Sym:{name=memcpy, st_name=0x270, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 67] Sym:{name=getgrnam, st_name=0x251, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 68] Sym:{name=undefined, st_name=0x57, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 69] Sym:{name=tzset, st_name=0x2a2, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 70] Sym:{name=fileno, st_name=0x35d, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 71] Sym:{name=tcgetpgrp, st_name=0x4d5, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 72] Sym:{name=__xstat, st_name=0x47c, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 73] Sym:{name=readdir, st_name=0xac, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 74] Sym:{name=wcwidth, st_name=0x2ff, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 75] Sym:{name=fflush, st_name=0x80, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 76] Sym:{name=nl_langinfo, st_name=0x2a8, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 77] Sym:{name=__fxstat, st_name=0x354, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 78] Sym:{name=strcoll, st_name=0x4fe, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 79] Sym:{name=mktime, st_name=0x3ec, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 80] Sym:{name=__freading, st_name=0x2ed, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 81] Sym:{name=fwrite_unlocked, st_name=0x4be, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 82] Sym:{name=realloc, st_name=0x15f, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 83] Sym:{name=stpncpy, st_name=0xf7, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 84] Sym:{name=setlocale, st_name=0xb4, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 85] Sym:{name=__printf_chk, st_name=0x97, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 86] Sym:{name=timegm, st_name=0x28d, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 87] Sym:{name=strftime, st_name=0x192, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 88] Sym:{name=mempcpy, st_name=0x220, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 89] Sym:{name=memmove, st_name=0x48d, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 90] Sym:{name=error, st_name=0x11a, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 91] Sym:{name=fseeko, st_name=0x4f7, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 92] Sym:{name=unsetenv, st_name=0x228, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 93] Sym:{name=strtoul, st_name=0x27e, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 94] Sym:{name=__cxa_atexit, st_name=0x565, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 95] Sym:{name=wcstombs, st_name=0x411, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 96] Sym:{name=getxattr, st_name=0x484, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 97] Sym:{name=freecon, st_name=0x62, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 98] Sym:{name=gethostname, st_name=0x364, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [ 99] Sym:{name=sigismember, st_name=0x3b7, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [100] Sym:{name=undefined, st_name=0x16e, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [101] Sym:{name=fwrite, st_name=0x38c, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [102] Sym:{name=__fprintf_chk, st_name=0x239, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [103] Sym:{name=_ITM_registerTMCloneTable, st_name=0x3c, st_info=0x20, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_NOTYPE, st_bind=STB_WEAK}
+ [104] Sym:{name=fflush_unlocked, st_name=0xdd, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [105] Sym:{name=mbsinit, st_name=0x29a, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [106] Sym:{name=iswprint, st_name=0x156, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [107] Sym:{name=sigaddset, st_name=0x247, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [108] Sym:{name=__ctype_tolower_loc, st_name=0x42e, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [109] Sym:{name=__ctype_b_loc, st_name=0x2bc, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [110] Sym:{name=__sprintf_chk, st_name=0x46e, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [111] Sym:{name=__progname, st_name=0x54a, st_info=0x11, st_other=STV_DEFAULT, st_shndx=0x1b, st_value=0x23280, st_size=0x8, st_type=STT_OBJECT, st_bind=STB_GLOBAL}
+ [112] Sym:{name=ls_mode, st_name=0x59d, st_info=0x11, st_other=STV_DEFAULT, st_shndx=0x1a, st_value=0x231e0, st_size=0x4, st_type=STT_OBJECT, st_bind=STB_GLOBAL}
+ [113] Sym:{name=optind, st_name=0xce, st_info=0x11, st_other=STV_DEFAULT, st_shndx=0x1b, st_value=0x23290, st_size=0x4, st_type=STT_OBJECT, st_bind=STB_GLOBAL}
+ [114] Sym:{name=undefined, st_name=0x536, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [115] Sym:{name=program_invocation_name, st_name=0x17a, st_info=0x21, st_other=STV_DEFAULT, st_shndx=0x1b, st_value=0x232a0, st_size=0x8, st_type=STT_OBJECT, st_bind=STB_WEAK}
+ [116] Sym:{name=version_etc_copyright, st_name=0x5f4, st_info=0x11, st_other=STV_DEFAULT, st_shndx=0x12, st_value=0x1cca0, st_size=0x2f, st_type=STT_OBJECT, st_bind=STB_GLOBAL}
+ [117] Sym:{name=Version, st_name=0x588, st_info=0x11, st_other=STV_DEFAULT, st_shndx=0x1a, st_value=0x231e8, st_size=0x8, st_type=STT_OBJECT, st_bind=STB_GLOBAL}
+ [118] Sym:{name=_IO_stdin_used, st_name=0x5a5, st_info=0x11, st_other=STV_DEFAULT, st_shndx=0x12, st_value=0x18000, st_size=0x4, st_type=STT_OBJECT, st_bind=STB_GLOBAL}
+ [119] Sym:{name=quoting_style_args, st_name=0x5c7, st_info=0x11, st_other=STV_DEFAULT, st_shndx=0x17, st_value=0x22a00, st_size=0x58, st_type=STT_OBJECT, st_bind=STB_GLOBAL}
+ [120] Sym:{name=exit_failure, st_name=0x5da, st_info=0x11, st_other=STV_DEFAULT, st_shndx=0x1a, st_value=0x231f8, st_size=0x4, st_type=STT_OBJECT, st_bind=STB_GLOBAL}
+ [121] Sym:{name=__progname_full, st_name=0x555, st_info=0x11, st_other=STV_DEFAULT, st_shndx=0x1b, st_value=0x232a0, st_size=0x8, st_type=STT_OBJECT, st_bind=STB_GLOBAL}
+ [122] Sym:{name=quote_quoting_options, st_name=0x572, st_info=0x11, st_other=STV_DEFAULT, st_shndx=0x1a, st_value=0x23200, st_size=0x38, st_type=STT_OBJECT, st_bind=STB_GLOBAL}
+ [123] Sym:{name=argmatch_die, st_name=0x590, st_info=0x11, st_other=STV_DEFAULT, st_shndx=0x1a, st_value=0x231f0, st_size=0x8, st_type=STT_OBJECT, st_bind=STB_GLOBAL}
+ [124] Sym:{name=_obstack_memory_used, st_name=0x370, st_info=0x12, st_other=STV_DEFAULT, st_shndx=0x10, st_value=0x16c60, st_size=0x26, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [125] Sym:{name=obstack_alloc_failed_handler, st_name=0x442, st_info=0x11, st_other=STV_DEFAULT, st_shndx=0x1a, st_value=0x23260, st_size=0x8, st_type=STT_OBJECT, st_bind=STB_GLOBAL}
+ [126] Sym:{name=_obstack_begin, st_name=0x495, st_info=0x12, st_other=STV_DEFAULT, st_shndx=0x10, st_value=0x16a80, st_size=0x15, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [127] Sym:{name=stderr, st_name=0x2f8, st_info=0x11, st_other=STV_DEFAULT, st_shndx=0x1b, st_value=0x232c0, st_size=0x8, st_type=STT_OBJECT, st_bind=STB_GLOBAL}
+ [128] Sym:{name=_obstack_free, st_name=0x52d, st_info=0x12, st_other=STV_DEFAULT, st_shndx=0x10, st_value=0x16bf0, st_size=0x6d, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [129] Sym:{name=program_invocation_short_name, st_name=0x3f3, st_info=0x21, st_other=STV_DEFAULT, st_shndx=0x1b, st_value=0x23280, st_size=0x8, st_type=STT_OBJECT, st_bind=STB_WEAK}
+ [130] Sym:{name=_obstack_allocated_p, st_name=0x2d1, st_info=0x12, st_other=STV_DEFAULT, st_shndx=0x10, st_value=0x16bb0, st_size=0x37, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [131] Sym:{name=optarg, st_name=0x2e6, st_info=0x11, st_other=STV_DEFAULT, st_shndx=0x1b, st_value=0x23298, st_size=0x8, st_type=STT_OBJECT, st_bind=STB_GLOBAL}
+ [132] Sym:{name=_obstack_begin_1, st_name=0x30d, st_info=0x12, st_other=STV_DEFAULT, st_shndx=0x10, st_value=0x16aa0, st_size=0x19, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [133] Sym:{name=quoting_style_vals, st_name=0x5b4, st_info=0x11, st_other=STV_DEFAULT, st_shndx=0x12, st_value=0x1c940, st_size=0x28, st_type=STT_OBJECT, st_bind=STB_GLOBAL}
+ [134] Sym:{name=__cxa_finalize, st_name=0x45f, st_info=0x22, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_WEAK}
+ [135] Sym:{name=_obstack_newchunk, st_name=0x31e, st_info=0x12, st_other=STV_DEFAULT, st_shndx=0x10, st_value=0x16ac0, st_size=0xeb, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [136] Sym:{name=malloc, st_name=0x286, st_info=0x12, st_other=STV_DEFAULT, st_shndx=SHN_UNDEF, st_value=0x0, st_size=0x0, st_type=STT_FUNC, st_bind=STB_GLOBAL}
+ [137] Sym:{name=stdout, st_name=0x263, st_info=0x11, st_other=STV_DEFAULT, st_shndx=0x1b, st_value=0x23288, st_size=0x8, st_type=STT_OBJECT, st_bind=STB_GLOBAL}
+ [138] Sym:{name=program_name, st_name=0x5e7, st_info=0x11, st_other=STV_DEFAULT, st_shndx=0x1b, st_value=0x24400, st_size=0x8, st_type=STT_OBJECT, st_bind=STB_GLOBAL}
+

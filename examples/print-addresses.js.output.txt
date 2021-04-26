@@ -1,0 +1,90 @@
+Printing address map for /bin/ls
+
+ELF addresses:
+
+ 0x00000 < Section - SHT_NULL undefined
+ 0x00000 < Segment - PT_GNU_STACK
+ 0x00000 > Segment - PT_GNU_STACK
+ 0x00000 > Segment - PT_LOAD
+ 0x00000 > Section - SHT_NULL undefined
+ 0x00040 > Segment - PT_PHDR
+ 0x00318 < Segment - PT_PHDR
+ 0x00318 > Segment - PT_INTERP
+ 0x00318 > Section - SHT_PROGBITS .interp
+ 0x00334 < Section - SHT_PROGBITS .interp
+ 0x00334 < Segment - PT_INTERP
+ 0x00338 > Segment - PT_GNU_PROPERTY
+ 0x00338 > Segment - PT_NOTE
+ 0x00338 > Section - SHT_NOTE .note.gnu.property
+ 0x00358 < Section - SHT_NOTE .note.gnu.property
+ 0x00358 < Segment - PT_NOTE
+ 0x00358 < Segment - PT_GNU_PROPERTY
+ 0x00358 > Segment - PT_NOTE
+ 0x00358 > Section - SHT_NOTE .note.gnu.build-id
+ 0x0037c < Section - SHT_NOTE .note.gnu.build-id
+ 0x0037c > Section - SHT_NOTE .note.ABI-tag
+ 0x0039c < Section - SHT_NOTE .note.ABI-tag
+ 0x0039c < Segment - PT_NOTE
+ 0x003a0 > Section - SHT_GNU_HASH .gnu.hash
+ 0x00484 < Section - SHT_GNU_HASH .gnu.hash
+ 0x00488 > Section - SHT_DYNSYM .dynsym
+ 0x01190 < Section - SHT_DYNSYM .dynsym
+ 0x01190 > Section - SHT_STRTAB .dynstr
+ 0x017dc < Section - SHT_STRTAB .dynstr
+ 0x017dc > Section - SHT_HIOS .gnu.version
+ 0x018f2 < Section - SHT_HIOS .gnu.version
+ 0x018f8 > Section - SHT_SUNW_verneed .gnu.version_r
+ 0x01968 < Section - SHT_SUNW_verneed .gnu.version_r
+ 0x01968 > Section - SHT_RELA .rela.dyn
+ 0x02cb8 < Section - SHT_RELA .rela.dyn
+ 0x02cb8 > Section - SHT_RELA .rela.plt
+ 0x036a8 < Section - SHT_RELA .rela.plt
+ 0x036a8 < Segment - PT_LOAD
+ 0x04000 > Segment - PT_LOAD
+ 0x04000 > Section - SHT_PROGBITS .init
+ 0x0401b < Section - SHT_PROGBITS .init
+ 0x04020 > Section - SHT_PROGBITS undefined
+ 0x046d0 < Section - SHT_PROGBITS undefined
+ 0x046d0 > Section - SHT_PROGBITS .plt.got
+ 0x04700 < Section - SHT_PROGBITS .plt.got
+ 0x04700 > Section - SHT_PROGBITS .plt.sec
+ 0x04da0 < Section - SHT_PROGBITS .plt.sec
+ 0x04da0 > Section - SHT_PROGBITS .text
+ 0x17572 < Section - SHT_PROGBITS .text
+ 0x17574 > Section - SHT_PROGBITS .fini
+ 0x17581 < Section - SHT_PROGBITS .fini
+ 0x17581 < Segment - PT_LOAD
+ 0x18000 > Segment - PT_LOAD
+ 0x18000 > Section - SHT_PROGBITS .rodata
+ 0x1d249 < Section - SHT_PROGBITS .rodata
+ 0x1d24c > Segment - PT_GNU_EH_FRAME
+ 0x1d24c > Section - SHT_PROGBITS .eh_frame_hdr
+ 0x1db78 < Section - SHT_PROGBITS .eh_frame_hdr
+ 0x1db78 < Segment - PT_GNU_EH_FRAME
+ 0x1db78 > Section - SHT_PROGBITS .eh_frame
+ 0x20b50 < Section - SHT_PROGBITS .eh_frame
+ 0x20b50 < Segment - PT_LOAD
+ 0x21010 > Segment - PT_LOAD
+ 0x21010 > Segment - PT_GNU_RELRO
+ 0x21010 > Section - SHT_INIT_ARRAY .init_array
+ 0x21018 < Section - SHT_INIT_ARRAY .init_array
+ 0x21018 > Section - SHT_FINI_ARRAY .fini_array
+ 0x21020 < Section - SHT_FINI_ARRAY .fini_array
+ 0x21020 > Section - SHT_PROGBITS .data.rel.ro
+ 0x21a58 < Section - SHT_PROGBITS .data.rel.ro
+ 0x21a58 > Segment - PT_DYNAMIC
+ 0x21a58 > Section - SHT_DYNAMIC .dynamic
+ 0x21c58 < Section - SHT_DYNAMIC .dynamic
+ 0x21c58 < Segment - PT_DYNAMIC
+ 0x21c58 > Section - SHT_PROGBITS undefined
+ 0x21ff8 < Section - SHT_PROGBITS undefined
+ 0x22000 < Segment - PT_GNU_RELRO
+ 0x22000 > Section - SHT_PROGBITS .data
+ 0x22268 < Section - SHT_PROGBITS .data
+ 0x22268 < Segment - PT_LOAD
+ 0x22268 > Section - SHT_NOBITS .bss
+ 0x22268 > Section - SHT_PROGBITS .gnu_debuglink
+ 0x2229c < Section - SHT_PROGBITS .gnu_debuglink
+ 0x2229c > Section - SHT_STRTAB .shstrtab
+ 0x223b9 < Section - SHT_STRTAB .shstrtab
+
